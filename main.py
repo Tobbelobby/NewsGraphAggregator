@@ -6,4 +6,10 @@ class GraphReader():
 
 print('First class')
 
+#Gjorde dette
 print('Im in')
+
+liste = ['en', 'to']
+for x in liste:
+    print(x)
+
