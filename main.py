@@ -13,3 +13,6 @@ liste = ['en', 'to']
 for x in liste:
     print(x)
 
+def add(num)
+    num += num
+    return num 
