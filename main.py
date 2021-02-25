@@ -1,1 +1,9 @@
-print ('Hello Magnus welcome to git')
+class GraphReader():
+
+    def test(self):
+        pass
+
+
+print('First class')
+
+
