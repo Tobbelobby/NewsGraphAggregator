@@ -35,38 +35,38 @@ def graph_shreddar():
 
 
 graph_shreddar()
+'''
+ def main():
+      thread = threading.Thread(target = graph_shredder())
+      thread.start()
+      thread.join()
 
-# def main():
-#      thread = threading.Thread(target = graph_shredder())
-#      thread.start()
-#      thread.join()
-#
-#      for x, y in object_dict.items():
-#           print(x,y)
-#
-# if name == 'main':
-#      main()
-#
+      for x, y in object_dict.items():
+           print(x,y)
 
-     # object_list.append(object)
+ if name == 'main':
+      main()
 
 
-
-# object_list.sort()
-# print(object_list[5])
-# print(object_list)
-
-
-# for x in object_list:
-#      print(x)
+      object_list.append(object)
 
 
 
-#print(graph.serialize(format='turtle').decode('utf-8'))
+ object_list.sort()
+ print(object_list[5])
+ print(object_list)
 
 
-#Dette vil vi ha ut 'https://twitter.com/i/status/1310747766067527686,
-# http://dbpedia.org/resource/Coronavirus, https://www.wikidata.org/entity/Q918
+ for x in object_list:
+      print(x)
 
 
 
+print(graph.serialize(format='turtle').decode('utf-8'))
+
+
+Dette vil vi ha ut 'https://twitter.com/i/status/1310747766067527686,
+ http://dbpedia.org/resource/Coronavirus, https://www.wikidata.org/entity/Q918
+
+
+'''
