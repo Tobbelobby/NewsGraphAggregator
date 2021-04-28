@@ -8,7 +8,7 @@ knowledge_bank = 'knowledge_graph'
 object_dict = {}
 object_list = []
 knowledge_path = []
-
+fil_list = []
 
 def the_banker():
     global filename
@@ -45,76 +45,9 @@ def main():
         the_banker()
     if len(knowledge_path) == 0:
         print('All graph are reddy for proses ')
-        print(len(object_dict.keys()))
+        print(object_dict.keys())
 
 
 
 if __name__ == "__main__":
     main()
-
-'''
- def main():
-      thread = threading.Thread(target = graph_shredder())
-      thread.start()
-      thread.join()
-
-      for x, y in object_dict.items():
-           print(x,y)
-
- if name == 'main':
-      main()
-
-
-      object_list.append(object)
-
-
-
- object_list.sort()
- print(object_list[5])
- print(object_list)
-
-
- for x in object_list:
-      print(x)
-
-
-
-print(graph.serialize(format='turtle').decode('utf-8'))
-#import threading
-import time
-
-g = Graph()
-
-
-object_list = []
-
-for subject,predicate,object in graph:
-     object_list.append(object)
-
-
-object_list.sort()
-print(object_list[5])
-print(object_list)
-
-
-# for x in object_list:
-#      print(x)
-
-
-
-
-
-
-
-
-#print(graph.serialize(format='turtle').decode('utf-8'))
-
-
-
-
-
-Dette vil vi ha ut 'https://twitter.com/i/status/1310747766067527686,
- http://dbpedia.org/resource/Coronavirus, https://www.wikidata.org/entity/Q918
-
-
-'''
